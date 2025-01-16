@@ -1,0 +1,20 @@
+:root{
+    --grisClarito: #dee2e6;
+}
+
+/*.heroParent{
+    display: flex;
+    justify-content: center;
+}*/
+
+.hero{
+    justify-self: center;
+    width: 90%;
+    border-bottom: 1px solid var(--grisClarito);
+}
+
+.myImage{
+    border-radius: 15px;
+    width: 90%;
+    border-bottom: 1px solid var(--grisClarito);
+}
