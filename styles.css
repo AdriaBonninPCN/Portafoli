@@ -7,14 +7,32 @@
     justify-content: center;
 }*/
 
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
 .hero{
     justify-self: center;
     width: 90%;
     border-bottom: 1px solid var(--grisClarito);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero img{
+    width: 10%;
 }
 
 .myImage{
     border-radius: 15px;
     width: 90%;
     border-bottom: 1px solid var(--grisClarito);
+}
+
+.nav-link:hover{
+    background-color: rgb(13 110 253);
+    color: white;
 }
