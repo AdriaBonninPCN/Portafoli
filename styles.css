@@ -7,11 +7,6 @@
     justify-content: center;
 }*/
 
-.sticky{
-    position: sticky;
-    top: 0px;
-    background-color: white;
-}
 
 .hero{
     justify-self: center;
